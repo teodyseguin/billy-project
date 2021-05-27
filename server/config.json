@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "mongodb": {
+      "host": "ds235827.mlab.com",
+      "port": 35827,
+      "dbname": "csvoucher",
+      "username": "admin",
+      "password": "billycsvvoucher"
+    }
+  },
+  "test": {
+    "mongodb": {
+      "host": "",
+      "port": "",
+      "dbname": "",
+      "username": "",
+      "password": ""
+    }
+  },
+  "prod": {
+    "mongodb": {
+      "host": "",
+      "port": "",
+      "dbname": "",
+      "username": "",
+      "password": ""
+    }
+  }
+}

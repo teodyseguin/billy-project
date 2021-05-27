@@ -1,0 +1,16 @@
+version: '2'
+services:
+  csvoucher-docroot:
+    build: .
+    container_name: csvoucher-docroot
+    volumes:
+      - ./docroot:/home/csvoucher/docroot
+    networks:
+      - csvoucher-network
+    ports:
+      - 3000:3000
+
+networks:
+  csvoucher-network:
+    driver: bridge
+
